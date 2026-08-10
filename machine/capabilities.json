@@ -1,0 +1,12 @@
+{
+  "schema": "glaciereq.repo-capabilities.v1",
+  "repository": "GlacierEQ/motherduck-local-cloud-query-passport",
+  "capabilities": [
+    {
+      "id": "local-cloud-query-passport",
+      "name": "Local-Cloud Query Passport",
+      "status": "SCAFFOLD",
+      "module": "src/local_cloud_query_passport.py"
+    }
+  ]
+}

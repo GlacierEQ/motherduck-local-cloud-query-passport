@@ -1,0 +1,31 @@
+{
+  "schema": "glaciereq.proof-receipt.v1",
+  "repository": "GlacierEQ/motherduck-local-cloud-query-passport",
+  "source_sha": "335345e652e6c1ad26933dc95bc73a9cea9335a2fac9ca8635cef3ae92846733",
+  "proof_id": "elite-motherduck-local-cloud-query-passport-1786356675",
+  "environment": {
+    "python": "/Users/kcbflux/.local/bin/python3.11",
+    "PYTHONPATH": "/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/motherduck-local-cloud-query-passport:/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/motherduck-local-cloud-query-passport/src",
+    "entry": "unittest"
+  },
+  "tests": [
+    "/Users/kcbflux/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
+  ],
+  "adversarial_tests": [
+    "tests/test_adversarial.py"
+  ],
+  "runtime": {
+    "operate": "scripts/operate.py (x2)",
+    "dual_run_ok": true,
+    "proof_dual_run_ok": true
+  },
+  "result": "PASS",
+  "limitations": [
+    "not production deployed",
+    "reference implementation only"
+  ],
+  "timestamp": "2026-08-10T10:11Z",
+  "artifact_hashes": {
+    "operability_receipt": "dd1c8974d160c28b91375aad01f0678aa1033ddfa019e251e395f3a095cde8fd"
+  }
+}
