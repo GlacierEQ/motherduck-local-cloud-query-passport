@@ -4,12 +4,12 @@
   "source_sha": "335345e652e6c1ad26933dc95bc73a9cea9335a2fac9ca8635cef3ae92846733",
   "proof_id": "elite-motherduck-local-cloud-query-passport-1786356675",
   "environment": {
-    "python": "/Users/kcbflux/.local/bin/python3.11",
-    "PYTHONPATH": "/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/motherduck-local-cloud-query-passport:/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/motherduck-local-cloud-query-passport/src",
+    "python": "${HOME}/.local/bin/python3.11",
+    "PYTHONPATH": "${HOME}/GlacierEQ_Swarm/job-app/repos/motherduck-local-cloud-query-passport:${HOME}/GlacierEQ_Swarm/job-app/repos/motherduck-local-cloud-query-passport/src",
     "entry": "unittest"
   },
   "tests": [
-    "/Users/kcbflux/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
+    "${HOME}/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
   ],
   "adversarial_tests": [
     "tests/test_adversarial.py"
