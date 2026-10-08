@@ -1,11 +1,14 @@
 {
-  "schema": "glaciereq.promotion-authority-grant.v1",
+  "schema": "glaciereq.promotion-proof-compatibility.v2",
+  "status": "EVIDENCE_BOUND_NON_AUTHORITATIVE",
   "repository": "GlacierEQ/motherduck-local-cloud-query-passport",
   "source_sha": "335345e652e6c1ad26933dc95bc73a9cea9335a2fac9ca8635cef3ae92846733",
   "proof_receipt_digest": "162459f10a91337b05557ecfbe948c998d4f14ddd73181f0d9ca376cf8e3fe9a",
-  "not_after": 1788948675.480486,
-  "mac": "a65f399975a1c9c98c7c54b60d974fcef2f7291b03d82366996439def0a19c9e",
-  "issuer": "local_operator_promotion_authority",
-  "verified": true,
-  "secret_ref": "src/promotion_authority.py::LOCAL_OPERATOR_SECRET"
+  "project_direction_authority": false,
+  "repository_lifecycle_authority": false,
+  "cross_repository_authority": false,
+  "merge_or_release_authority": false,
+  "technical_meaning": "Exact-source proof-binding compatibility metadata only. This record cannot authorize project direction, promotion, merge, release, retirement, repository disposition, or cross-repository action.",
+  "legacy_source_blob_sha": "ba920bde1f7c9824770c2f8ace136ce60d2961d9",
+  "legacy_grant_preserved_in_git_history": true
 }
